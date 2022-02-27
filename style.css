@@ -1,0 +1,49 @@
+.container {
+  margin: auto;
+  width: 320px;
+}
+
+.text-field {
+  width: 320px;
+  background-color: #1a1a1b;
+  height: 55px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.text-field input {
+  height: 50px;
+  width: 310px;
+  font-size: 32px;
+  background-color: #333f44;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.container-tombol {
+  display: flex;
+  width: 320px;
+  background-color: #1a1a1b;
+  color: white;
+  padding: 5px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 5px;
+  border-radius: 3px;
+}
+
+.tombol, #reset {
+  width: 70px;
+  background-color: #333f44;
+  height: 30px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+#tombol, #reset {
+  background-color: white;
+  color: #333f44;
+}
